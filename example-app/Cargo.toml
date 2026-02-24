@@ -1,0 +1,12 @@
+[package]
+name = "example-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hector = { path = "../hector" }
+tokio = { version = "1", features = ["full"] }
+axum = "0.8"
+
+[build-dependencies]
+hector-build = { path = "../hector-build" }
