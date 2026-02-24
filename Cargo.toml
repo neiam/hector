@@ -1,4 +1,3 @@
 [workspace]
 members = ["hector", "hector-build", "example-app"]
 resolver = "2"
-reposotiry = https://github.com/neiam/hector
