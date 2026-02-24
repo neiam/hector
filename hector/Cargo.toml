@@ -2,10 +2,16 @@
 name = "hector"
 version = "0.1.0"
 edition = "2024"
+description = "Serve your application's source code at a /hector axum endpoint, embedded at compile time"
+license = "MIT"
+repository = "https://github.com/neiam/hector"
+readme = "README.md"
+keywords = ["axum", "source", "introspection", "embed", "devtools"]
+categories = ["web-programming::http-server", "development-tools"]
 
 [dependencies]
 axum = "0.8"
 tokio = { version = "1", features = ["full"] }
 
 [build-dependencies]
-hector-build = { path = "../hector-build" }
+hector-build = { path = "../hector-build", version = "0.1.0" }

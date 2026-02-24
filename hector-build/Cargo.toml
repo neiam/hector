@@ -2,6 +2,12 @@
 name = "hector-build"
 version = "0.1.0"
 edition = "2024"
+description = "Build-script helper for hector: walks your source tree and produces a compile-time tar.gz archive"
+license = "MIT"
+repository = "https://github.com/neiam/hector"
+readme = "README.md"
+keywords = ["build-script", "axum", "source", "introspection", "embed"]
+categories = ["development-tools", "web-programming::http-server"]
 
 [dependencies]
 walkdir = "2"
