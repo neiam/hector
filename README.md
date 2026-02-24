@@ -78,4 +78,4 @@ async fn main() {
 
 ## License
 
-MIT
+AGPL
