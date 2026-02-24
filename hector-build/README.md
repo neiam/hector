@@ -23,4 +23,4 @@ See the [hector crate](https://crates.io/crates/hector) for the full example.
 
 ## License
 
-MIT
+AGPL

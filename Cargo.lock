@@ -105,7 +105,7 @@ dependencies = [
 
 [[package]]
 name = "example-app"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "axum",
  "hector",
@@ -178,7 +178,7 @@ dependencies = [
 
 [[package]]
 name = "hector"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "axum",
  "hector-build",
@@ -187,7 +187,7 @@ dependencies = [
 
 [[package]]
 name = "hector-build"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "flate2",
  "tar",

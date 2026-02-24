@@ -1,9 +1,9 @@
 [package]
 name = "hector-build"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Build-script helper for hector: walks your source tree and produces a compile-time tar.gz archive"
-license = "MIT"
+license = "AGPL-3.0-only"
 repository = "https://github.com/neiam/hector"
 readme = "README.md"
 keywords = ["build-script", "axum", "source", "introspection", "embed"]
